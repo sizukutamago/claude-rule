@@ -1,0 +1,37 @@
+# Git
+.git
+.gitignore
+
+# Development
+node_modules/
+*.log
+.env
+.env.*
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+
+# Test
+coverage/
+*.test.js
+*.spec.js
+
+# Build
+dist/
+build/
+
+# Documentation sources (if any)
+docs/
+
+# CI/CD
+.github/
+.gitlab-ci.yml
+.travis.yml
+
+# その他
+*.md.backup
+*.tmp

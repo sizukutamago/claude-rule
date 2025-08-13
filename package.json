@@ -1,0 +1,43 @@
+{
+  "name": "@sizukutamago/claude-rule",
+  "version": "1.0.0",
+  "description": "汎用的なCLAUDE.mdテンプレートを簡単にセットアップするCLIツール",
+  "main": "index.js",
+  "bin": {
+    "claude-rule": "./bin/init.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "claude",
+    "claude-code",
+    "template",
+    "typescript",
+    "pnpm",
+    "development",
+    "guidelines"
+  ],
+  "author": "sizukutamago",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sizukutamago/claude-rule.git"
+  },
+  "bugs": {
+    "url": "https://github.com/sizukutamago/claude-rule/issues"
+  },
+  "homepage": "https://github.com/sizukutamago/claude-rule#readme",
+  "files": [
+    "bin/",
+    "templates/",
+    "CLAUDE.md",
+    "README.md"
+  ],
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
